@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList include="c119-base.xml">
+
+  <sim>
+    <description>Fairchild C119 (YASim)</description>
+    <flight-model>yasim</flight-model>
+    <aero>c119-yasim</aero>
+  </sim>
+    
+</PropertyList>
