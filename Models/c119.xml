@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 
 <PropertyList>
 
@@ -133,19 +133,6 @@
     <property-base>sim/model/livery</property-base>
     <texture-prop>texture</texture-prop>
     <texture>texture.png</texture>
-<!--
-    <diffuse>
-      <red-prop>diffuse/red</red-prop>
-      <green-prop>diffuse/green</green-prop>
-      <blue-prop>diffuse/blue</blue-prop>
-    </diffuse>
-
-    <ambient>
-      <red-prop>ambient/red</red-prop>
-      <green-prop>ambient/green</green-prop>
-      <blue-prop>ambient/blue</blue-prop>
-    </ambient>
--->
     <specular>
       <red-prop>specular/red</red-prop>
       <green-prop>specular/green</green-prop>
@@ -157,11 +144,6 @@
       <green-prop>emission/green</green-prop>
       <blue-prop>emission/blue</blue-prop>
     </emission>
-<!--
-    <shininess>
-      <shininess-prop>shininess</shininess-prop>
-    </shininess>
--->
   </animation>
 
   <effect>
@@ -232,10 +214,67 @@
   <!-- Interieur -->
   <model>
     <path>Aircraft/Fairchild-C119/Models/Interior/interior.xml</path>
+  </model>
+
+  <!-- Une ombre pour OSG -->
+  <model>
+    <path>Aircraft/Fairchild-C119/Models/shadow.xml</path>
     <offsets>
-      <x-m> 0 </x-m>
-      <y-m> 0 </y-m>
-      <z-m> 0 </z-m>
+      <x-m> -0.004 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m> -3.662 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Cranking -->
+  <!-- Left -->
+  <model>
+    <path>Aircraft/Fairchild-C119/Models/Effects/cranking/all-crankingL.xml</path>
+    <offsets> 
+      <x-m> -5.92201 </x-m>
+      <y-m> -4.38900 </y-m>
+      <z-m> -0.99929 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Left -->
+  <model>
+    <path>Aircraft/Fairchild-C119/Models/Effects/cranking/all-crankingR.xml</path>
+    <offsets>
+      <x-m> -5.92201 </x-m>
+      <y-m>  4.38900 </y-m>
+      <z-m> -0.99929 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Effets sur le sol -->
+  <!-- Roue avant -->
+  <model>
+    <path>Aircraft/Fairchild-C119/Models/Effects/ground/ground0.xml</path>   
+    <offsets>
+      <x-m> -10.069 </x-m>
+      <y-m>   0.000 </y-m>
+      <z-m>  -4.005 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Roue gauche -->
+  <model>
+    <path>Aircraft/Fairchild-C119/Models/Effects/ground/ground1.xml</path>
+    <offsets>
+      <x-m> -2.511 </x-m>
+      <y-m> -4.389 </y-m>
+      <z-m> -4.031 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Roue droite -->
+  <model>
+    <path>Aircraft/Fairchild-C119/Models/Effects/ground/ground2.xml</path>
+    <offsets>
+      <x-m> -2.511 </x-m>
+      <y-m>  4.389 </y-m>
+      <z-m> -4.031 </z-m>
     </offsets>
   </model>
 

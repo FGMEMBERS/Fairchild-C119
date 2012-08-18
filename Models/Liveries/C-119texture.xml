@@ -6,8 +6,8 @@
 
     <model>
       <livery>
-        <name type="string">Default</name>
-        <texture>texture.png</texture>
+        <name type="string">C-119 USAF ca 1953</name>
+        <texture>Liveries/C-119texture.png</texture>
         <specular>
           <red>   0.05 </red>
           <green> 0.05 </green>
