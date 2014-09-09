@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>panel.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>panel</object-name>
+
+    <!-- Objets transparents -->
+  </animation>
+
+  <!-- AI -->
+  <model>
+    <path>Aircraft/Fairchild-C119/Models/Interior/Panel/Instruments/ai/ai.xml</path>
+    <offsets>
+      <x-m> -0.306 </x-m>
+      <y-m> -0.119 </y-m>
+      <z-m>  0.256 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Fairchild-C119/Models/Interior/Panel/Instruments/ai/ai.xml</path>
+    <offsets>
+      <x-m> -0.306 </x-m>
+      <y-m>  0.425 </y-m>
+      <z-m>  0.256 </z-m>
+    </offsets>
+  </model>
+
+  <!-- ASI -->
+  <model>
+    <path>Aircraft/Fairchild-C119/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m> -0.306 </x-m>
+      <y-m> -0.350 </y-m>
+      <z-m>  0.252 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Fairchild-C119/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m> -0.306 </x-m>
+      <y-m>  0.194 </y-m>
+      <z-m>  0.252 </z-m>
+    </offsets>
+  </model>
+
+  <!-- ALT -->
+  <model>
+    <path>Aircraft/Fairchild-C119/Models/Interior/Panel/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m> -0.305 </x-m>
+      <y-m> -0.338 </y-m>
+      <z-m>  0.150 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Fairchild-C119/Models/Interior/Panel/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m> -0.305 </x-m>
+      <y-m>  0.206 </y-m>
+      <z-m>  0.150 </z-m>
+    </offsets>
+  </model>
+
+  <!-- TURN -->
+  <model>
+    <path>Aircraft/Fairchild-C119/Models/Interior/Panel/Instruments/turn/turn.xml</path>
+    <offsets>
+      <x-m> -0.300 </x-m>
+      <y-m> -0.229 </y-m>
+      <z-m>  0.150 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Fairchild-C119/Models/Interior/Panel/Instruments/turn/turn.xml</path>
+    <offsets>
+      <x-m> -0.300 </x-m>
+      <y-m>  0.315 </y-m>
+      <z-m>  0.150 </z-m>
+    </offsets>
+  </model>
+
+  <!-- VSI -->
+  <model>
+    <path>Aircraft/Fairchild-C119/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
+    <offsets>
+      <x-m> -0.300 </x-m>
+      <y-m> -0.119 </y-m>
+      <z-m>  0.150 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Fairchild-C119/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
+    <offsets>
+      <x-m> -0.300 </x-m>
+      <y-m>  0.425 </y-m>
+      <z-m>  0.150 </z-m>
+    </offsets>
+  </model>
+
+  <!-- MAN -->
+  <model>
+    <path>Aircraft/Fairchild-C119/Models/Interior/Panel/Instruments/man/manL.xml</path>
+    <offsets>
+      <x-m> -0.310 </x-m>
+      <y-m> -0.034 </y-m>
+      <z-m>  0.316 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Fairchild-C119/Models/Interior/Panel/Instruments/man/manR.xml</path>
+    <offsets>
+      <x-m> -0.310 </x-m>
+      <y-m>  0.013 </y-m>
+      <z-m>  0.316 </z-m>
+    </offsets>
+  </model>
+
+  <!-- RPM -->
+  <model>
+    <path>Aircraft/Fairchild-C119/Models/Interior/Panel/Instruments/rpm/rpmL.xml</path>
+    <offsets>
+      <x-m> -0.310 </x-m>
+      <y-m> -0.034 </y-m>
+      <z-m>  0.268 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Fairchild-C119/Models/Interior/Panel/Instruments/rpm/rpmR.xml</path>
+    <offsets>
+      <x-m> -0.310 </x-m>
+      <y-m>  0.013 </y-m>
+      <z-m>  0.268 </z-m>
+    </offsets>
+  </model>
+
+</PropertyList>
+
