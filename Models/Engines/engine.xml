@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>r4360.ac</path>
+
+  <animation>
+    <object-name>r4360</object-name>
+    <object-name>lowpoly</object-name>
+    
+    <!-- transparent objects -->
+  </animation>
+
+  <model>
+    <name>Disque0</name>
+    <path>Aircraft/Fairchild-C119/Models/Engines/disque.xml</path>
+    <offsets>
+      <x-m> 0.30 </x-m>
+      <roll-deg> -15 </roll-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <name>Disque1</name>
+    <path>Aircraft/Fairchild-C119/Models/Engines/disque.xml</path>
+  </model>
+   
+  <model>
+    <name>Disque2</name>
+    <path>Aircraft/Fairchild-C119/Models/Engines/disque.xml</path>
+    <offsets>
+      <x-m> -0.30 </x-m>
+      <roll-deg> 15 </roll-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <name>Disque3</name>
+    <path>Aircraft/Fairchild-C119/Models/Engines/disque.xml</path>
+    <offsets>
+      <x-m> -0.60 </x-m>
+      <roll-deg> 30 </roll-deg>
+    </offsets>
+  </model>
+  
+  <animation>
+    <name>HighPoly</name>
+    <object-name>Disque0</object-name>
+    <object-name>Disque1</object-name>
+    <object-name>Disque2</object-name>
+    <object-name>Disque3</object-name>
+  </animation>
+  
+  <animation>
+    <name>LowPoly</name>
+    <object-name>lowpoly</object-name>
+  </animation>
+  
+  <animation>
+    <type>range</type>
+    <object-name>HighPoly</object-name>
+    <min-m>0</min-m>
+    <max-property>/sim/rendering/static-lod/detailed</max-property>
+  </animation>
+  
+  <animation>
+    <type>range</type>
+    <object-name>LowPoly</object-name>
+    <min-property>/sim/rendering/static-lod/detailed</min-property>
+    <max-property>/sim/rendering/static-lod/bare</max-property>
+  </animation>
+  
+</PropertyList>

@@ -7,7 +7,7 @@ A little history
 ================
 
 Fairchild C119 "Flying Boxcar"
-=============
+==============================
 
 Manufacturer                  : Fairchild
 Type                          : Military transport aircraft
@@ -29,10 +29,12 @@ Thanks
 
 ===============
 BARANGER Emmanuel
-December, 04, 2007.
-September, 01, 2010.
+December, 04, 2007
+September, 01, 2010
+September, 17, 2014
 
 http://helijah.free.fr/flightgear/hangar.htm
+http://embaranger.free.fr
 embaranger@free.fr
 
 
@@ -42,8 +44,8 @@ embaranger@free.fr
 Un peu d'histoire
 =================
 
-Noratlas 2502
-=============
+Fairchild C119 "Flying Boxcar"
+==============================
 
 Constructeur                  : Fairchild
 Type                          : Avion de transport militaire
@@ -66,8 +68,10 @@ Remerciements
 
 ===============
 BARANGER Emmanuel
-04 Décembre 2007.
-01 Septembre 2010.
+04 Décembre 2007
+01 Septembre 2010
+17 Septembre 2014
 
 http://helijah.free.fr/flightgear/hangar.htm
+http://embaranger.free.fr
 embaranger@free.fr

@@ -2,6 +2,7 @@
 
 <!-- Fairchild C119 -  2007 Emmanuel BARANGER
                        2010 Emmanuel BARANGER
+                       2014 Emmanuel BARANGER
 
      sources          : http://en.wikipedia.org/wiki/Fairchild_C-119_Flying_Boxcar
 
@@ -13,9 +14,9 @@
      engine           : 2 Pratt & Whitney R-4360-20 radial engines (3500 hp each)
 -->
 
-<airplane mass="40000">
+<airplane mass="40000" version="YASIM_VERSION_CURRENT">
 
-  <approach speed="85" aoa="10">
+  <approach speed="85" aoa="6">
     <control-setting axis="/controls/engines/engine[0]/throttle" value="0.3"/>
     <control-setting axis="/controls/engines/engine[0]/mixture" value="0.65"/>
     <control-setting axis="/controls/engines/engine[0]/propeller-pitch" value="0.5"/>
@@ -53,11 +54,11 @@
         chord="4.770" 
         length="12.108" 
         taper="0.55"
-        camber="0.045"
-        sweep="-1">
-        <stall aoa="18" width="4" peak="1.5"/>
+        sweep="-1"
+        camber="0.02">
+        <stall aoa="18" width="1" peak="1.5"/>
         <flap0 start="0.09" end="0.61" lift="1.4" drag="1.9"/>
-        <flap1 start="0.61" end="0.89" lift="1.4" drag="1.2"/>
+        <flap1 start="0.61" end="0.89" lift="1.2" drag="1.2"/>
 
         <control-input axis="/controls/flight/flaps" control="FLAP0" invert="true"/>
         <control-input axis="/controls/flight/aileron" control="FLAP1" split="true"/>
@@ -75,8 +76,8 @@
          length="4.393" 
          taper="0.88"
          dihedral="-7"
-         camber="0.045">
-         <stall aoa="18" width="4" peak="1.5"/>
+         camber="0.02">
+         <stall aoa="18" width="1" peak="1.5"/>
          <flap0 start="0.39" end="0.78" lift="1.4" drag="1.9"/>
 
          <control-input axis="/controls/flight/flaps" control="FLAP0"/>
@@ -90,8 +91,8 @@
          chord="2.526"
          length="4.360"
          taper="1">
-         <stall aoa="28" width="4" peak="1.0"/>
-         <flap0 start="0" end="0.95" lift="1.4" drag="2.0"/>
+         <stall aoa="28" width="1" peak="1.5"/>
+         <flap0 start="0" end="0.95" lift="1.2" drag="1.1"/>
 
          <control-input axis="/controls/flight/elevator" control="FLAP0"/>
          <control-input axis="/controls/flight/elevator-trim" control="FLAP0"/>
@@ -103,8 +104,8 @@
   <vstab x="-11.807" y="4.4" z="-0.323"
          chord="2.526"
          length="4.360">
-         <stall aoa="16" width="2" peak="1.5"/>
-         <flap0 start="0" end="1" lift="1.3" drag="1.1"/>
+         <stall aoa="16" width="1" peak="1.5"/>
+         <flap0 start="0" end="1" lift="1.2" drag="1.1"/>
 
          <control-input axis="/controls/flight/rudder" control="FLAP0" invert="true"/>
          <control-input axis="/controls/flight/rudder-trim" control="FLAP0" invert="true"/>
@@ -116,8 +117,8 @@
   <vstab x="-11.807" y="-4.4" z="-0.323"
          chord="2.526"
          length="4.360">
-         <stall aoa="16" width="2" peak="1.5"/>
-         <flap0 start="0" end="1" lift="1.3" drag="1.1"/>
+         <stall aoa="16" width="1" peak="1.5"/>
+         <flap0 start="0" end="1" lift="1.2" drag="1.1"/>
 
          <control-input axis="/controls/flight/rudder" control="FLAP0" invert="true"/>
          <control-input axis="/controls/flight/rudder-trim" control="FLAP0" invert="true"/>
@@ -257,13 +258,11 @@
   </gear> -->
 
   <tank x="3.5" y=" 3.572" z="-0.355" capacity="2000"/>
+  <tank x="3.5" y=" 0.000" z="-0.355" capacity=" 484"/>
   <tank x="3.5" y="-3.572" z="-0.355" capacity="2000"/>
-  <tank x="3.5" y=" 8.500" z="-0.355" capacity=" 242"/>
-  <tank x="3.5" y="-8.500" z="-0.355" capacity=" 242"/>
 
   <!-- Mass distribution -->
-  <ballast x="14" y="0" z="-2" mass="1200"/>
-  <ballast x="-14" y="0" z="2" mass="-2600"/>
+  <ballast x=" 14" y="0" z="-2" mass=" 1200"/>
+  <ballast x="-14" y="0" z=" 2" mass="-2600"/>
 
 </airplane>
-
