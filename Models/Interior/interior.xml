@@ -7,24 +7,48 @@
   <animation>
     <!-- Objets opaques -->
     <object-name>interieur</object-name>
-    <object-name>tour</object-name>
-
+    <object-name>inttour</object-name>
+    <object-name>inttourcargoG</object-name>
+    <object-name>inttourcargoD</object-name>
+    <object-name>planchet</object-name>
+    <object-name>intcargoG</object-name>
+    <object-name>intcargoD</object-name>
+    
     <!-- Objets transparents -->
     <object-name>intvitres</object-name>
+    <object-name>intvitrescargoG</object-name>
+    <object-name>intvitrescargoD</object-name>
   </animation>
 
-  <animation>
-    <type>noshadow</type>
+  <!-- working for Rembrandt -->
+  <effect>
+    <inherits-from>Aircraft/Ford-Trimotor/Models/Effects/Glass/glass</inherits-from>
     <object-name>intvitres</object-name>
-  </animation>
-
-  <animation>
-    <type>shader</type>
-    <shader>chrome</shader>
-    <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
-    <object-name>intvitres</object-name>
-  </animation>
-
+    <object-name>intvitrescargoG</object-name>
+    <object-name>intvitrescargoD</object-name>
+  </effect>
+  
+  <!-- Planches de bord -->
+  <model>
+    <path>Aircraft/Fairchild-C119/Models/Interior/Panel/panel.xml</path>
+    <offsets>
+      <x-m> -11.293 </x-m>
+      <y-m>   0.000 </y-m>
+      <z-m>  -0.983 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- OverHead -->
+  <model>
+    <path>Aircraft/Fairchild-C119/Models/Interior/Panel/overhead/overhead.xml</path>
+    <offsets>
+      <x-m> -10.950 </x-m>
+      <y-m>   0.000 </y-m>
+      <z-m>  -0.078 </z-m>
+      <pitch-deg> 64 </pitch-deg>
+    </offsets>
+  </model>
+  
   <!-- Pilote -->
   <model>
     <path>Aircraft/Fairchild-C119/Models/Pilot/pilot.xml</path>
@@ -55,25 +79,81 @@
     </offsets>
   </model>
 
-  <!-- Planches de bord -->
-  <model>
-    <path>Aircraft/Fairchild-C119/Models/Interior/Panel/panel.xml</path>
-    <offsets>
-      <x-m> -11.293 </x-m>
-      <y-m>   0.000 </y-m>
-      <z-m>  -0.983 </z-m>
-    </offsets>
-  </model>
-
-  <!-- OverHead -->
-  <model>
-    <path>Aircraft/Fairchild-C119/Models/Interior/Panel/overhead/overhead.xml</path>
-    <offsets>
-      <x-m> -10.950 </x-m>
-      <y-m>   0.000 </y-m>
-      <z-m>  -0.078 </z-m>
-    </offsets>
-  </model>
-
+  <!-- Animation portes cargo -->
+  <animation>
+    <name>IntCargoGauche</name>
+    <object-name>intcargoG</object-name>
+    <object-name>inttourcargoG</object-name>
+    <object-name>intvitrescargoG</object-name>
+  </animation>
+  
+  <animation>
+    <type>pick</type>
+    <object-name>IntCargoGauche</object-name>
+    <visible>true</visible>
+    <action>
+      <button>0</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>doors.crew.toggle();</script>
+      </binding>
+    </action>
+  </animation>
+  
+  <animation>
+    <type>rotate</type>
+    <object-name>IntCargoGauche</object-name>
+    <property>sim/model/door-positions/crew/position-norm</property>
+    <factor> 80 </factor>
+    <center>
+      <x-m>  3.44120 </x-m>
+      <y-m> -1.53677 </y-m>
+      <z-m> -1.52732 </z-m>
+    </center>
+    <axis>
+      <x>  0 </x>
+      <y>  0 </y>
+      <z> -1 </z>
+    </axis>
+  </animation>
+  
+  <animation>
+    <name>IntCargoDroite</name>
+    <object-name>intcargoD</object-name>
+    <object-name>inttourcargoD</object-name>
+    <object-name>intvitrescargoD</object-name>
+  </animation>
+  
+  <animation>
+    <type>pick</type>
+    <object-name>IntCargoDroite</object-name>
+    <visible>true</visible>
+    <action>
+      <button>0</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>doors.crew.toggle();</script>
+      </binding>
+    </action>
+  </animation>
+  
+  <animation>
+    <type>rotate</type>
+    <object-name>IntCargoDroite</object-name>
+    <property>sim/model/door-positions/crew/position-norm</property>
+    <factor> -80 </factor>
+    <center>
+      <x-m>  3.44120 </x-m>
+      <y-m>  1.53677 </y-m>
+      <z-m> -1.52732 </z-m>
+    </center>
+    <axis>
+      <x>  0 </x>
+      <y>  0 </y>
+      <z> -1 </z>
+    </axis>
+  </animation>
+  
 </PropertyList>
-

@@ -7,10 +7,30 @@
   <animation>
     <!-- Objets opaques -->
     <object-name>panel</object-name>
-
+    <object-name>texte</object-name>
+    
     <!-- Objets transparents -->
   </animation>
 
+  <!-- ADF -->
+  <model>
+    <path>Aircraft/Fairchild-C119/Models/Interior/Panel/Instruments/adf/adf.xml</path>
+    <offsets>
+      <x-m> -0.306 </x-m>
+      <y-m> -0.229 </y-m>
+      <z-m>  0.256 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Fairchild-C119/Models/Interior/Panel/Instruments/adf/adf.xml</path>
+    <offsets>
+      <x-m> -0.306 </x-m>
+      <y-m>  0.315 </y-m>
+      <z-m>  0.256 </z-m>
+    </offsets>
+  </model>
+  
   <!-- AI -->
   <model>
     <path>Aircraft/Fairchild-C119/Models/Interior/Panel/Instruments/ai/ai.xml</path>
@@ -144,5 +164,127 @@
     </offsets>
   </model>
 
+  <!-- TORQUE PRESURE -->
+  <model>
+    <path>Aircraft/Fairchild-C119/Models/Interior/Panel/Instruments/torque/torque0.xml</path>
+    <offsets>
+      <x-m> -0.310 </x-m>
+      <y-m> -0.034 </y-m>
+      <z-m>  0.220 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Fairchild-C119/Models/Interior/Panel/Instruments/torque/torque1.xml</path>
+    <offsets>
+      <x-m> -0.310 </x-m>
+      <y-m>  0.013 </y-m>
+      <z-m>  0.220 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- FUEL FLOW -->
+  <model>
+    <path>Aircraft/Fairchild-C119/Models/Interior/Panel/Instruments/fuel/flow/flow0.xml</path>
+    <offsets>
+      <x-m> -0.310 </x-m>
+      <y-m> -0.034 </y-m>
+      <z-m>  0.170 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Fairchild-C119/Models/Interior/Panel/Instruments/fuel/flow/flow1.xml</path>
+    <offsets>
+      <x-m> -0.310 </x-m>
+      <y-m>  0.013 </y-m>
+      <z-m>  0.170 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- FUEL PRESSURE -->
+  <model>
+    <path>Aircraft/Fairchild-C119/Models/Interior/Panel/Instruments/fuel/pressure/pressure0.xml</path>
+    <offsets>
+      <x-m> -0.310 </x-m>
+      <y-m> -0.034 </y-m>
+      <z-m>  0.118 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Fairchild-C119/Models/Interior/Panel/Instruments/fuel/pressure/pressure1.xml</path>
+    <offsets>
+      <x-m> -0.310 </x-m>
+      <y-m>  0.013 </y-m>
+      <z-m>  0.118 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- FUEL QTY -->
+  <model>
+    <path>Aircraft/Fairchild-C119/Models/Interior/Panel/Instruments/fuel/qty/qty0.xml</path>
+    <offsets>
+      <x-m> -0.310 </x-m>
+      <y-m> -0.034 </y-m>
+      <z-m>  0.060 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Fairchild-C119/Models/Interior/Panel/Instruments/fuel/qty/qty1.xml</path>
+    <offsets>
+      <x-m> -0.310 </x-m>
+      <y-m>  0.013 </y-m>
+      <z-m>  0.060 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Fairchild-C119/Models/Interior/Panel/Instruments/fuel/qty/qty2.xml</path>
+    <offsets>
+      <x-m> -0.310 </x-m>
+      <y-m>  0.063 </y-m>
+      <z-m>  0.060 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- OIL TEMP -->
+  <model>
+    <path>Aircraft/Fairchild-C119/Models/Interior/Panel/Instruments/oil/temp/temp0.xml</path>
+    <offsets>
+      <x-m> -0.310 </x-m>
+      <y-m>  0.063 </y-m>
+      <z-m>  0.170 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Fairchild-C119/Models/Interior/Panel/Instruments/oil/temp/temp1.xml</path>
+    <offsets>
+      <x-m> -0.310 </x-m>
+      <y-m>  0.110 </y-m>
+      <z-m>  0.170 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- OIL PRESURE -->
+  <model>
+    <path>Aircraft/Fairchild-C119/Models/Interior/Panel/Instruments/oil/pressure/pressure0.xml</path>
+    <offsets>
+      <x-m> -0.310 </x-m>
+      <y-m>  0.063 </y-m>
+      <z-m>  0.220 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Fairchild-C119/Models/Interior/Panel/Instruments/oil/pressure/pressure1.xml</path>
+    <offsets>
+      <x-m> -0.310 </x-m>
+      <y-m>  0.110 </y-m>
+      <z-m>  0.220 </z-m>
+    </offsets>
+  </model>
+  
 </PropertyList>
-
