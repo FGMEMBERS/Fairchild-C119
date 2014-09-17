@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <model>
+    <name>Piston1</name>
+    <path>Aircraft/Fairchild-C119/Models/Engines/blocpiston.xml</path>
+  </model>
+  
+  <model>
+    <name>Piston2</name>
+    <path>Aircraft/Fairchild-C119/Models/Engines/blocpiston.xml</path>
+    <offsets>
+      <roll-deg> 52 </roll-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <name>Piston3</name>
+    <path>Aircraft/Fairchild-C119/Models/Engines/blocpiston.xml</path>
+    <offsets>
+      <roll-deg> 104 </roll-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <name>Piston4</name>
+    <path>Aircraft/Fairchild-C119/Models/Engines/blocpiston.xml</path>
+    <offsets>
+      <roll-deg> 156 </roll-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <name>Piston5</name>
+    <path>Aircraft/Fairchild-C119/Models/Engines/blocpiston.xml</path>
+    <offsets>
+      <roll-deg> 208 </roll-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <name>Piston6</name>
+    <path>Aircraft/Fairchild-C119/Models/Engines/blocpiston.xml</path>
+    <offsets>
+      <roll-deg> 260 </roll-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <name>Piston7</name>
+    <path>Aircraft/Fairchild-C119/Models/Engines/blocpiston.xml</path>
+    <offsets>
+      <roll-deg> 312 </roll-deg>
+    </offsets>
+  </model>
+  
+</PropertyList>
